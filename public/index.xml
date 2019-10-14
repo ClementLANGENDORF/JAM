@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CMS versus JAM Stack</title>
+    <link>http://example.org/</link>
+    <description>Recent content on CMS versus JAM Stack</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Mon, 14 Oct 2019 11:36:42 +0200</lastBuildDate>
+    
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CMS versus JAM Stack</title>
+      <link>http://example.org/posts/my-first-post/</link>
+      <pubDate>Mon, 14 Oct 2019 11:36:42 +0200</pubDate>
+      
+      <guid>http://example.org/posts/my-first-post/</guid>
+      <description>Aujourd’hui les CMS telle que Wordpress ou Drupal sont au coeur du développement de site web. Leur prise en main ainsi que leur facilité d’utilisation en font des incontournables dans le domaine du web. Pour tous non-initiés au développement, l’utilisation de CMS est indispensable si l’on veut que le client puisse administrer lui-même son site. Mais ceux-ci posent de nombreux problèmes de performance, point crucial à l’heure du développement éco-responsable, où l’on cherche à réduire le nombre de ressource utilisés par les machines.</description>
+    </item>
+    
+  </channel>
+</rss>

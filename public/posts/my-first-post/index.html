@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr-fr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>CMS versus JAM Stack  | CMS versus JAM Stack</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.58.3" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.d98f2eb6bcd1eaedb7edf166bd16af26.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+    
+    <meta property="og:title" content="CMS versus JAM Stack" />
+<meta property="og:description" content="Aujourd’hui les CMS telle que Wordpress ou Drupal sont au coeur du développement de site web. Leur prise en main ainsi que leur facilité d’utilisation en font des incontournables dans le domaine du web. Pour tous non-initiés au développement, l’utilisation de CMS est indispensable si l’on veut que le client puisse administrer lui-même son site. Mais ceux-ci posent de nombreux problèmes de performance, point crucial à l’heure du développement éco-responsable, où l’on cherche à réduire le nombre de ressource utilisés par les machines." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/posts/my-first-post/" />
+<meta property="article:published_time" content="2019-10-14T11:36:42+02:00" />
+<meta property="article:modified_time" content="2019-10-14T11:36:42+02:00" />
+<meta itemprop="name" content="CMS versus JAM Stack">
+<meta itemprop="description" content="Aujourd’hui les CMS telle que Wordpress ou Drupal sont au coeur du développement de site web. Leur prise en main ainsi que leur facilité d’utilisation en font des incontournables dans le domaine du web. Pour tous non-initiés au développement, l’utilisation de CMS est indispensable si l’on veut que le client puisse administrer lui-même son site. Mais ceux-ci posent de nombreux problèmes de performance, point crucial à l’heure du développement éco-responsable, où l’on cherche à réduire le nombre de ressource utilisés par les machines.">
+
+
+<meta itemprop="datePublished" content="2019-10-14T11:36:42&#43;02:00" />
+<meta itemprop="dateModified" content="2019-10-14T11:36:42&#43;02:00" />
+<meta itemprop="wordCount" content="425">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="CMS versus JAM Stack"/>
+<meta name="twitter:description" content="Aujourd’hui les CMS telle que Wordpress ou Drupal sont au coeur du développement de site web. Leur prise en main ainsi que leur facilité d’utilisation en font des incontournables dans le domaine du web. Pour tous non-initiés au développement, l’utilisation de CMS est indispensable si l’on veut que le client puisse administrer lui-même son site. Mais ceux-ci posent de nombreux problèmes de performance, point crucial à l’heure du développement éco-responsable, où l’on cherche à réduire le nombre de ressource utilisés par les machines."/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="http://example.org/" class="f3 fw2 hover-white no-underline white-90 dib">
+      CMS versus JAM Stack
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">CMS versus JAM Stack</h1>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2019-10-14T11:36:42&#43;02:00">October 14, 2019</time>
+      
+      
+    </header>
+
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Aujourd’hui les CMS telle que Wordpress ou Drupal sont au coeur du développement de site web. Leur prise en main ainsi que leur facilité d’utilisation en font des incontournables dans le domaine du web. Pour tous non-initiés au développement, l’utilisation de CMS est indispensable si l’on veut que le client puisse administrer lui-même son site. Mais ceux-ci posent de nombreux problèmes de performance, point crucial à l’heure du développement éco-responsable, où l’on cherche à réduire le nombre de ressource utilisés par les machines.
+Avec les CMS actuels, l’on retrouve un schéma de génération de pages qui fait appel à la base de données (BDD). Elle envoie ses données au fichier PHP, qui génère alors une page HTML affichée par le navigateur web. Ce système permet de rendre le tout dynamique (par opposition au sites statiques dont le contenu ne changera jamais).
+Cependant, ce système pose problème si les pages à afficher son statiques car cette approche nous montre qu&rsquo;à chaque rechargement de page, l’on refait des appels à la base de données et que cela peut s’avérer inutile. En effet la plupart du temps les données reçues seront les mêmes que précédemment.</p>
+
+<p>Un concept alternatif apparaît alors pour modifier la vision du développement, le JAMstack. JAM, ou Javascript API Markup, est une vision du développement qui met l’emphase sur la non-utilité d’un site à régénérer ses pages à chaque requête qu’il reçoit. C’est alors que JAM pose la conjecture suivante : si ces pages sont vouées à rester les mêmes, pourquoi ne pas les rendre statiques ? L’idée est alors de rendre chaque pages statiques en amont, générant ainsi un site complet. Elles seront transmises au navigateur pour être mises en cache (stocker sur sa propre machine), épargnant ainsi nombre d’étape de génération de page et améliorant les performances de rendu. L&rsquo;interaction vient alors des informations reçues par une API. Par conséquent, toute la couche logique se situe côté client grâce à javascript.</p>
+
+<p>Plusieurs points vont alors influencer le choix de l’approche JAMStack :</p>
+
+<p>Le SEO, car les pages statiques possèdent des URL simplifiées, améliorant le référencement auprès des algorithmes Google. Cela limite également le problème des duplications de page et donc de duplication de contenu, bête noir du référencement.
+La vitesse, les pages statiques sont globalement plus rapide à charger d’une page dynamique. Une page généré dynamiquement effectue obligatoirement une requête pour sa création.
+La sécurité car une page statique est, par définition, sans base de données. Par conséquent si aucune base de données n’y est liée, aucune base de données ne peut-être volée.</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6">
+      
+      
+      </div>
+    </section>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://example.org/" >
+    &copy; 2019 CMS versus JAM Stack
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>
